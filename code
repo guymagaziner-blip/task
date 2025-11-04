@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="Profile">
+        <img src="https://wiki.rustclash.com/img/skins/324/34301.png" alt="Alternate Text" />
+        <h1>Imp Sar</h1>
+        <p1>idan's favourite sar the Imp Sar</p1>
+    </div>
+    <div class="Profiles">
+        <img src="https://media.discordapp.net/attachments/669308329419341836/933545092680155207/photo0.gif?ex=690b5bde&is=690a0a5e&hm=9fc3226b5a2407476f08f6b8cc5633c59afbc1705c30a5d78468bf652a82fd0b&" alt="Alternate Text" />
+        <h2>W speed</h2>
+        <p2>Arabic Cat send me this</p2>
+    </div>
+    <button></button>
+    <div class="banner">
+        <div class="text">
+            <p>text in banner</p>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		style.css = style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9036F59-D7B2-4111-9521-987E4F5DDE2C}
+	EndGlobalSection
+EndGlobal
+
+
+img {
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.Profile:hover {
+    border-color: red;
+    transform: scale(1.05);
+}
+.Profile {
+
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 100, 0, 0.67);
+    width: 320px;
+    height: 370px;
+    text-align: center;
+    transition: 0.67s ease;
+    border: 1px solid rgb(74, 0, 0, 0.00);
+}
+.Profiles {
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 100, 0, 0.67);
+    width: 320px;
+    height: 370px;
+    text-align: center;
+    transition: 0.67s ease;
+    border: 1px solid rgb(74, 0, 0, 0.00);
+}
+.Profiles:hover {
+    border-color: red;
+    transform: scale(1.05);
+}
+button {
+    background-color: darkred;
+    padding: 50px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+}
+button:hover {
+        background-color: red;
+        box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+    }
+.banner {
+    background-image: url('https://i.ytimg.com/vi/4tX6Z-N7Bnk/maxresdefault.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    background: rgb(192 200 121 / 40%);
+    padding: 5px;
+    text-align: center;
+}
