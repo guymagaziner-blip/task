@@ -1,0 +1,70 @@
+﻿
+img {
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.Profile:hover {
+    border-color: red;
+    transform: scale(1.05);
+}
+.Profile {
+
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 100, 0, 0.67);
+    width: 320px;
+    height: 370px;
+    text-align: center;
+    transition: 0.67s ease;
+    border: 1px solid rgb(74, 0, 0, 0.00);
+}
+.Profiles {
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 100, 0, 0.67);
+    width: 320px;
+    height: 370px;
+    text-align: center;
+    transition: 0.67s ease;
+    border: 1px solid rgb(74, 0, 0, 0.00);
+}
+.Profiles:hover {
+    border-color: red;
+    transform: scale(1.05);
+}
+button {
+    background-color: darkred;
+    padding: 50px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+}
+button:hover {
+        background-color: red;
+        box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+    }
+.banner {
+    background-image: url('https://i.ytimg.com/vi/4tX6Z-N7Bnk/maxresdefault.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    background: rgb(192 200 121 / 40%);
+    padding: 5px;
+    text-align: center;
+}
